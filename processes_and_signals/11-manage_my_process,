@@ -25,4 +25,9 @@ if [[ "$#" == "1" ]]; then
   fi
 else
   echo "Usage: manage_my_process {start|stop|restart}"
-fi
+fi #!/usr/bin/env bash
+#manage my files
+while [[ 1 -eq 1 ]]; do
+	echo "I am alive!" >> /tmp/my_process
+	sleep 2
+done
